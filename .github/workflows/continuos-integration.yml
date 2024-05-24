@@ -30,7 +30,7 @@ jobs:
 
       - name: Compilar com Maven
         working-directory: ./rest-with-spring-boot-and-java-erudio
-        run: mvn -B package --file pom.xml
+        run:  mvn clean package
 
       - name: Construir Docker Compose
         working-directory: .
