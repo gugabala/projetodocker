@@ -1,14 +1,14 @@
-/Users/guga/Desktop/Git Curso REST API's RESTFul/rest-with-spring-boot-and-java/22_DockerizingOurApp/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/util/MediaType.java
-/Users/guga/Desktop/Git Curso REST API's RESTFul/rest-with-spring-boot-and-java/22_DockerizingOurApp/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/model/Person.java
-/Users/guga/Desktop/Git Curso REST API's RESTFul/rest-with-spring-boot-and-java/22_DockerizingOurApp/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/repositories/PersonRepository.java
-/Users/guga/Desktop/Git Curso REST API's RESTFul/rest-with-spring-boot-and-java/22_DockerizingOurApp/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/exceptions/RequiredObjectIsNullException.java
-/Users/guga/Desktop/Git Curso REST API's RESTFul/rest-with-spring-boot-and-java/22_DockerizingOurApp/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/exceptions/ExceptionResponse.java
-/Users/guga/Desktop/Git Curso REST API's RESTFul/rest-with-spring-boot-and-java/22_DockerizingOurApp/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/controllers/PersonController.java
-/Users/guga/Desktop/Git Curso REST API's RESTFul/rest-with-spring-boot-and-java/22_DockerizingOurApp/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/serialization/converter/YamlJackson2HttpMesageConverter.java
-/Users/guga/Desktop/Git Curso REST API's RESTFul/rest-with-spring-boot-and-java/22_DockerizingOurApp/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/exceptions/handler/CustomizedResponseEntityExceptionHandler.java
-/Users/guga/Desktop/Git Curso REST API's RESTFul/rest-with-spring-boot-and-java/22_DockerizingOurApp/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/data/vo/v1/PersonVO.java
-/Users/guga/Desktop/Git Curso REST API's RESTFul/rest-with-spring-boot-and-java/22_DockerizingOurApp/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/exceptions/ResourceNotFoundException.java
-/Users/guga/Desktop/Git Curso REST API's RESTFul/rest-with-spring-boot-and-java/22_DockerizingOurApp/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/services/PersonServices.java
-/Users/guga/Desktop/Git Curso REST API's RESTFul/rest-with-spring-boot-and-java/22_DockerizingOurApp/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/mapper/DozerMapper.java
-/Users/guga/Desktop/Git Curso REST API's RESTFul/rest-with-spring-boot-and-java/22_DockerizingOurApp/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/config/WebConfig.java
-/Users/guga/Desktop/Git Curso REST API's RESTFul/rest-with-spring-boot-and-java/22_DockerizingOurApp/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/Startup.java
+/Users/guga/Desktop/docker/projetodocker/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/exceptions/RequiredObjectIsNullException.java
+/Users/guga/Desktop/docker/projetodocker/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/serialization/converter/YamlJackson2HttpMesageConverter.java
+/Users/guga/Desktop/docker/projetodocker/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/repositories/PersonRepository.java
+/Users/guga/Desktop/docker/projetodocker/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/mapper/DozerMapper.java
+/Users/guga/Desktop/docker/projetodocker/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/Startup.java
+/Users/guga/Desktop/docker/projetodocker/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/data/vo/v1/PersonVO.java
+/Users/guga/Desktop/docker/projetodocker/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/util/MediaType.java
+/Users/guga/Desktop/docker/projetodocker/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/exceptions/ResourceNotFoundException.java
+/Users/guga/Desktop/docker/projetodocker/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/model/Person.java
+/Users/guga/Desktop/docker/projetodocker/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/exceptions/handler/CustomizedResponseEntityExceptionHandler.java
+/Users/guga/Desktop/docker/projetodocker/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/config/WebConfig.java
+/Users/guga/Desktop/docker/projetodocker/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/exceptions/ExceptionResponse.java
+/Users/guga/Desktop/docker/projetodocker/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/controllers/PersonController.java
+/Users/guga/Desktop/docker/projetodocker/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/services/PersonServices.java
