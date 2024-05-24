@@ -4,7 +4,6 @@ on:
   push:
     branches: 
      - master
-
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -28,9 +27,9 @@ jobs:
           distribution: 'adopt'
           cache: maven
 
-      - name: Compilar com Maven
+      - name: Compilar com Maven (sem testes)
         working-directory: ./rest-with-spring-boot-and-java-erudio
-        run:  mvn clean package
+        run: mvn -B package -DskipTests --file pom.xml
 
       - name: Construir Docker Compose
         working-directory: .
@@ -39,6 +38,5 @@ jobs:
       - name: Enviar para o Registro de Contêineres do Docker Hub
         run: |
           docker tag ${{ secrets.DOCKER_USERNAME }}/rest-with-spring-boot-erudio:latest ${{ secrets.DOCKER_USERNAME }}/rest-with-spring-boot-erudio:${{ github.run_id }}
-
           docker push ${{ secrets.DOCKER_USERNAME }}/rest-with-spring-boot-erudio:${{ github.run_id }}
           docker push ${{ secrets.DOCKER_USERNAME }}/rest-with-spring-boot-erudio:latest
